@@ -1,34 +1,35 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>ALVAN | Egyptian menswear, built from scratch</title><meta name="theme-color" content="#1f2326">
+<title>ALVAN | Egyptian menswear, built from scratch</title><meta name="theme-color" content="#f0e9dc">
 <style>
-:root{--bg:#1f2326;--bg2:#181b1e;--ink:#efebe3;--mute:#a3a8a8;--line:#343a3e;--serif:Georgia,"Times New Roman",serif;--sans:"Helvetica Neue",Helvetica,Arial,sans-serif}
+:root{--bg:#f0e9dc;--bg2:#e8dfcd;--ink:#2b2824;--mute:#7a7365;--line:#d0c6b3;--serif:Georgia,"Times New Roman",serif;--sans:"Helvetica Neue",Helvetica,Arial,sans-serif}
 *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6;overflow-x:hidden;padding-bottom:84px}
 a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
 .wrap{max-width:980px;margin:0 auto;padding:0 24px}
-.mark{position:fixed;top:0;left:0;right:0;background:rgba(24,27,30,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);z-index:20;padding:16px 24px;font-family:var(--serif);font-style:italic;font-size:26px}
+.mark{position:fixed;top:0;left:0;right:0;background:rgba(240,233,220,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);z-index:20;padding:16px 24px;font-family:var(--serif);font-style:italic;font-size:26px}
+.mark{padding:0;height:60px;display:flex;align-items:center;overflow:hidden;background:#f0e9dc!important}.mark img{height:104px;width:auto;max-width:none;margin-left:-20px}
 .side{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:20;display:flex;flex-direction:column;gap:12px}
 .side i{width:7px;height:7px;border-radius:50%;border:1px solid var(--mute);display:block;transition:.3s}.side i.on{background:var(--ink);border-color:var(--ink)}
-.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:90px 0 12vh;overflow:hidden;background:radial-gradient(ellipse 90% 50% at 30% 30%,#2d3438,#1a1e20)}
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:90px 0 12vh;overflow:hidden;background:radial-gradient(ellipse 90% 50% at 30% 30%,#f7f2e8,#e9e0cd)}
 #th{position:absolute;inset:0;width:100%;height:100%}
 .hero .wrap{position:relative;z-index:2}
 .hero small{font-size:11px;letter-spacing:.34em;text-transform:uppercase;color:var(--mute)}
 .hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(46px,14vw,110px);line-height:1.02;margin:16px 0 26px}
 .w{display:inline-block;opacity:0;transform:translateY(.6em);filter:blur(6px);animation:wi .9s cubic-bezier(.2,.7,.2,1) forwards}@keyframes wi{to{opacity:1;transform:none;filter:none}}
-.hero p{max-width:380px;color:#d3d0c9;font-size:17px}
+.hero p{max-width:380px;color:#4a453d;font-size:17px}
 .ln{margin-top:34px;display:inline-flex;gap:14px;align-items:center;font-size:12px;letter-spacing:.24em;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:8px}
 section{padding:96px 0}
 .eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--mute);margin-bottom:14px}
 h2{font-family:var(--serif);font-weight:400;font-size:clamp(32px,8.5vw,52px);line-height:1.1;margin-bottom:22px}
-.lead{color:#d3d0c9;font-size:17px;max-width:560px}
+.lead{color:#4a453d;font-size:17px;max-width:560px}
 /* pieces: stacked editorial rows with big numerals */
 .piece{display:grid;gap:22px;padding:44px 0;border-top:1px solid var(--line)}
-.piece .num{font-family:var(--serif);font-style:italic;font-size:78px;line-height:1;color:#3a4247}
+.piece .num{font-family:var(--serif);font-style:italic;font-size:78px;line-height:1;color:#d6ccb8}
 .piece .fr{background:#dcdcdc;position:relative;overflow:hidden}.piece .fr img{width:100%;transition:transform 1s}
 .piece .fr em{position:absolute;left:0;bottom:0;background:var(--bg);font:normal 10px var(--sans);letter-spacing:.2em;text-transform:uppercase;padding:9px 12px;color:var(--mute)}
 .piece h3{font-family:var(--serif);font-weight:400;font-size:32px}
-.piece p{color:#b8b6b0;font-size:15px;margin:8px 0 18px;max-width:420px}
+.piece p{color:#5c564b;font-size:15px;margin:8px 0 18px;max-width:420px}
 .ask{display:inline-block;padding:14px 26px;border:1px solid var(--ink);font-size:11px;letter-spacing:.2em;text-transform:uppercase}
 /* making */
 .making{background:var(--bg2);border-block:1px solid var(--line)}
@@ -37,11 +38,11 @@ h2{font-family:var(--serif);font-weight:400;font-size:clamp(32px,8.5vw,52px);lin
 /* ask steps as a horizontal rail */
 .rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:34px -24px 0;padding:0 24px;scrollbar-width:none}.rail::-webkit-scrollbar{display:none}
 .rail div{flex:0 0 74%;scroll-snap-align:start;border:1px solid var(--line);padding:26px 22px;background:var(--bg2)}
-.rail b{display:block;font-family:var(--serif);font-weight:400;font-size:22px;margin:6px 0}.rail small{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}.rail span{color:#b8b6b0;font-size:15px}
+.rail b{display:block;font-family:var(--serif);font-weight:400;font-size:22px;margin:6px 0}.rail small{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute)}.rail span{color:#5c564b;font-size:15px}
 .pay{margin-top:26px;color:var(--mute);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
 .cta{display:inline-block;margin-top:30px;padding:17px 34px;background:var(--ink);color:var(--bg);font-size:12px;letter-spacing:.22em;text-transform:uppercase}
 footer{padding:36px 0;border-top:1px solid var(--line);color:var(--mute);font-size:12px}footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.bar{position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:30;display:flex;gap:8px;background:rgba(24,27,30,.94);border:1px solid var(--line);padding:8px}
+.bar{position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom));z-index:30;display:flex;gap:8px;background:rgba(240,233,220,.96);border:1px solid var(--line);padding:8px}
 .bar a{flex:1;text-align:center;padding:14px 4px;font-size:11px;letter-spacing:.18em;text-transform:uppercase}.bar a:first-child{background:var(--ink);color:var(--bg)}
 .opt{margin:22px 0 4px}.opt .lb{display:block;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--mute);margin:0 0 10px}
 .col{display:inline-flex;align-items:center;gap:10px;font-size:14px;margin-bottom:18px}.col i{width:18px;height:18px;border-radius:50%;border:1px solid var(--ink);display:inline-block}
@@ -51,7 +52,7 @@ footer{padding:36px 0;border-top:1px solid var(--line);color:var(--mute);font-si
 @media(min-width:800px){body{padding-bottom:0}.bar{display:none}.piece{grid-template-columns:120px 1fr 1fr;align-items:center;gap:40px}.piece:nth-child(even) .fr{order:3}.rail div{flex:0 0 30%}.facts{grid-template-columns:repeat(3,1fr);gap:40px}.facts div{flex-direction:column}.facts span{text-align:left;max-width:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.w{opacity:1!important;transform:none!important;filter:none!important}}
 </style></head><body>
-<a class="mark" href="#top">Alvan</a>
+<a class="mark" href="#top" aria-label="Alvan"><img src="1-alvan-logo-cream.png" alt="Alvan"></a>
 <nav class="side" id="side"><i class="on"></i><i></i><i></i><i></i></nav>
 <header class="hero" id="top"><canvas id="th"></canvas><div class="wrap">
 <small>Egyptian menswear</small><h1 id="h1">Quiet knitwear, made slowly.</h1>
@@ -89,5 +90,5 @@ o.querySelectorAll('button').forEach(function(b){b.addEventListener('click',func
 var dots=document.querySelectorAll('#side i'),secs=['top','pieces','making','ask'].map(function(i){return document.getElementById(i)});
 addEventListener('scroll',function(){var y=scrollY+innerHeight/2;secs.forEach(function(s,i){dots[i].classList.toggle('on',y>=s.offsetTop&&y<s.offsetTop+s.offsetHeight)})},{passive:true});
 var cv=document.getElementById('th');if(!RM){var c=cv.getContext('2d'),W,H,N=8,dpr=Math.min(devicePixelRatio||1,1.5);function sz(){var b=cv.getBoundingClientRect();W=b.width;H=b.height;cv.width=W*dpr;cv.height=H*dpr;c.setTransform(dpr,0,0,dpr,0,0)}sz();addEventListener('resize',sz);
-(function loop(){var t=performance.now()/1000;c.clearRect(0,0,W,H);for(var i=0;i<N;i++){c.beginPath();var b=H*(.1+.55*i/(N-1)),a=H*.05+i*3,p=i*1.1;for(var x=0;x<=W;x+=14){var y=b+Math.sin(x/W*3.2+t*.35+p)*a+Math.sin(x/W*7+t*.2+p*2)*a*.35;x?c.lineTo(x,y):c.moveTo(x,y)}c.strokeStyle='rgba(239,235,227,'+(.06+.05*Math.sin(t*.4+i))+')';c.stroke()}requestAnimationFrame(loop)})()}})();
+(function loop(){var t=performance.now()/1000;c.clearRect(0,0,W,H);for(var i=0;i<N;i++){c.beginPath();var b=H*(.1+.55*i/(N-1)),a=H*.05+i*3,p=i*1.1;for(var x=0;x<=W;x+=14){var y=b+Math.sin(x/W*3.2+t*.35+p)*a+Math.sin(x/W*7+t*.2+p*2)*a*.35;x?c.lineTo(x,y):c.moveTo(x,y)}c.strokeStyle='rgba(43,40,36,'+(.10+.07*Math.sin(t*.4+i))+')';c.stroke()}requestAnimationFrame(loop)})()}})();
 </script></body></html>
